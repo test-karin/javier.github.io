@@ -41,11 +41,20 @@ body {
   justify-content: center;
   justify-content: space-evenly;
   flex-direction: column;
+  gap: 50px 20px;
+  flex: 4;
+  flex-flow: row wrap;
+  justify-content: center;
+  clear: both;
 }
 .menu a {
   text-decoration: none;
   font-size: 18px;
   color: limegreen;
+  border: #ccc solid 1px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .card {
